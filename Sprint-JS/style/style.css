@@ -1,0 +1,20 @@
+body{
+  background-color: rgb(245, 245, 255);
+}
+#corpo{
+    width: 50%;
+    font-family: sans-serif;
+}
+p{
+    font-family:'Courier New', monospace, sans-serif;
+}
+h1,h2:hover{
+    cursor: pointer;
+}
+
+  #lampada, #placa{
+    border-radius: 15px;
+    width: 500px;
+    margin-top: 50px;
+  }
+
