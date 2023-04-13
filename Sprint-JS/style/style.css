@@ -1,20 +1,58 @@
 body{
   background-color: rgb(245, 245, 255);
+  text-align: justify;
+  text-justify: inter-word;
 }
+
+p{
+  font-family:'Times New Roman', Times, serif;
+  font-size: larger;   
+}
+
+h1, h2{
+  font-family: sans-serif;
+}
+
+a{
+  font-size: large;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(0, 47, 255);
+}
+
 #corpo{
     width: 50%;
+    
     font-family: sans-serif;
 }
-p{
-    font-family:'Courier New', monospace, sans-serif;
-}
-h1,h2:hover{
+
+#titulo,#titulo2,#titulo3,#titulo4:hover{
     cursor: pointer;
+    transition-duration: font-size 0.5s ease;
 }
 
   #lampada, #placa{
     border-radius: 15px;
-    width: 500px;
+    width: 400px;
     margin-top: 50px;
   }
+
+  #smartgrid, #crise, #energias{
+    width: 500px;
+    border-radius: 15px;  
+
+   
+  }
+
+  .texto-smartgrid{
+    width: 50%;
+  }
+
+ 
+  
+ 
+  
+
+  
 
