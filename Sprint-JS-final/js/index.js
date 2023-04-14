@@ -86,20 +86,20 @@ h3Element.addEventListener("click", ()=>{
 //imagens
 image.addEventListener('mouseover', () => {
   image.style.transition = 'width 0.6s ease';
-  image.style.width = '700px';
+  image.style.width = '600px';
 });
 
 image.addEventListener('mouseout', () => {
-  image.style.width = '600px';
+  image.style.width = '500px';
 });
 
 
 image2.addEventListener('mouseover', () => {
   image2.style.transition = 'width 0.6s ease';
-  image2.style.width = '700px';
+  image2.style.width = '600px';
 });
 
 image2.addEventListener('mouseout', () => {
-  image2.style.width = '600px';
+  image2.style.width = '500px';
 });
 

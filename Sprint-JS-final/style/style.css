@@ -45,12 +45,12 @@ a{
 
   #lampada, #placa{
     border-radius: 15px;
-    width: 600px;
+    width: 500px;
     margin-top: 50px;
   }
 
   #smartgrid, #crise, #smartgrid2{
-    width: 800px;
+    width: 500px;
     border-radius: 15px;  
     float: right;
     margin-right: 100px;
@@ -70,7 +70,7 @@ a{
   }
 
   #energias{
-    width: 700px;
+    width: 500px;
     border-radius: 15px;  
     float: right;
     margin-right: 100px;
@@ -80,7 +80,7 @@ a{
 
   #crise{
     margin-top: 15%;
-    width: 700px;
+    width: 500px;
   }
 
   .texto-smartgrid{
@@ -95,11 +95,10 @@ a{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     font-family: sans-serif;
+    float:left;
+   
+    
 
-    margin-left: 10%;
-    
-    
-    
    
   }
 
@@ -110,9 +109,7 @@ a{
       width: 100%;
       text-align: center;
       padding: 10px;
- 
-   
-    z-index: 9999;
+     z-index: 9999;
     
   }
 
