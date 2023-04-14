@@ -83,49 +83,23 @@ h3Element.addEventListener("click", ()=>{
     location.href = "./pages/smartgrid.html"
 });
 
-//item 4
-
-h4Element.addEventListener("mouseover", ()=>{
-    h4Element.style.transition = 'font-size 0.5s ease'
-    h4Element.style.fontSize = "35px";
-    p4Element.style.transition = 'opacity 1s ease';
-    p4Element.style.opacity = "1";
-    p4Element.textContent = "Além das soluções mencionadas acima, a economia de energia também é uma forma importante de prevenir a crise energética. Isso pode ser feito por meio de medidas simples, como desligar aparelhos eletrônicos quando não estiverem em uso, usar lâmpadas de baixo consumo e adotar práticas de eficiência energética em residências e empresas.";
-});
-
-h4Element.addEventListener("mouseleave", ()=>{
-    h4Element.style.fontSize = "24px";
-    p4Element.style.transition = 'opacity 1s ease';
-    p4Element.style.opacity = "0";
-    p4Element.textContent = "";
-});
-
-h4Element.addEventListener("click", ()=>{
-    location.href = "./pages/economia.html"
-});
-
-
-
-
-
+//imagens
 image.addEventListener('mouseover', () => {
   image.style.transition = 'width 0.6s ease';
-  image.style.width = '600px';
+  image.style.width = '700px';
 });
 
 image.addEventListener('mouseout', () => {
-  image.style.width = '500px';
+  image.style.width = '600px';
 });
-
-
 
 
 image2.addEventListener('mouseover', () => {
   image2.style.transition = 'width 0.6s ease';
-  image2.style.width = '600px';
+  image2.style.width = '700px';
 });
 
 image2.addEventListener('mouseout', () => {
-  image2.style.width = '500px';
+  image2.style.width = '600px';
 });
 

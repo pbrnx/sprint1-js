@@ -19,6 +19,17 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: rgb(0, 47, 255);
+
+}
+
+.container{
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-align: justify;
+ 
 }
 
 #corpo{
@@ -38,11 +49,38 @@ a{
     margin-top: 50px;
   }
 
-  #smartgrid, #crise, #energias{
-    width: 500px;
+  #smartgrid, #crise, #smartgrid2{
+    width: 800px;
     border-radius: 15px;  
+    float: right;
+    margin-right: 100px;
+  
+  }
 
-   
+
+  #smartgrid{
+    margin-top: 100px;
+  }
+
+  #smartgrid2{
+    margin-top: 100px;
+    float: left;
+    width: 600px;
+    margin-bottom: 100px;
+  }
+
+  #energias{
+    width: 700px;
+    border-radius: 15px;  
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 1000px;
+
+  }
+
+  #crise{
+    margin-top: 15%;
+    width: 700px;
   }
 
   .texto-smartgrid{
@@ -57,7 +95,28 @@ a{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     font-family: sans-serif;
+
+    margin-left: 10%;
+    
+    
+    
+   
   }
+
+  
+  #paginainicial{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+ 
+   
+    z-index: 9999;
+    
+  }
+
+
  
   
  
