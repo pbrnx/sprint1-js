@@ -9,6 +9,8 @@ image.addEventListener('mouseout', () => {
   image.style.width = '500px';
 });
 
+
+
 function mostrarResultado() {
   // Encontra o radio button selecionado pelo usuário
   const opcaoSelecionada = document.querySelector('input[name="opcao"]:checked');
@@ -22,6 +24,16 @@ function mostrarResultado() {
   } else {
     alert('Por favor, selecione uma opção');
   }
+}
+
+function limparSelecao() {
+  // Encontra todos os radio buttons do formulário
+  const opcoes = document.querySelectorAll('input[name="opcao"]');
+
+  // Limpa a seleção de cada radio button
+  opcoes.forEach(opcao => {
+    opcao.checked = false;
+  });
 }
 
 

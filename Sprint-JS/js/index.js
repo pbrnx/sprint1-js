@@ -13,10 +13,14 @@ const p2Element = document.getElementById('p2');
 const p3Element = document.getElementById('p3');
 const p4Element = document.getElementById('p4');
 
+const image = document.getElementById('lampada');
+const image2 = document.getElementById('placa');
+
+
 //item1
 
 h1Element.addEventListener("mouseover", ()=>{
-    h1Element.style.transition = 'font-size 1s ease';
+    h1Element.style.transition = 'font-size 0.5s ease';
     h1Element.style.fontSize = "40px"
     p1Element.style.transition = 'opacity 1s ease';
     p1Element.style.opacity = "1";
@@ -40,7 +44,7 @@ h1Element.addEventListener("click", ()=>{
 //item 2
 
 h2Element.addEventListener("mouseover", ()=>{
-    h2Element.style.transition = 'font-size 1s ease'
+    h2Element.style.transition = 'font-size 0.5s ease'
     h2Element.style.fontSize = "35px";
     p2Element.style.transition = 'opacity 1s ease';
     p2Element.style.opacity = "1";
@@ -49,7 +53,7 @@ h2Element.addEventListener("mouseover", ()=>{
 
 h2Element.addEventListener("mouseleave", ()=>{
     h2Element.style.fontSize = "24px";
-    p2Element.style.transition = 'opacity 1s ease';
+    p2Element.style.transition = 'opacity 0.5s ease';
     p2Element.style.opacity = "0";
     p2Element.textContent = "";
 });
@@ -61,7 +65,7 @@ h2Element.addEventListener("click", ()=>{
 //item 3
 
 h3Element.addEventListener("mouseover", ()=>{
-    h3Element.style.transition = 'font-size 1s ease'
+    h3Element.style.transition = 'font-size 0.5s ease'
     h3Element.style.fontSize = "35px";
     p3Element.style.transition = 'opacity 1s ease';
     p3Element.style.opacity = "1";
@@ -82,7 +86,7 @@ h3Element.addEventListener("click", ()=>{
 //item 4
 
 h4Element.addEventListener("mouseover", ()=>{
-    h4Element.style.transition = 'font-size 1s ease'
+    h4Element.style.transition = 'font-size 0.5s ease'
     h4Element.style.fontSize = "35px";
     p4Element.style.transition = 'opacity 1s ease';
     p4Element.style.opacity = "1";
@@ -102,4 +106,26 @@ h4Element.addEventListener("click", ()=>{
 
 
 
+
+
+image.addEventListener('mouseover', () => {
+  image.style.transition = 'width 0.6s ease';
+  image.style.width = '600px';
+});
+
+image.addEventListener('mouseout', () => {
+  image.style.width = '500px';
+});
+
+
+
+
+image2.addEventListener('mouseover', () => {
+  image2.style.transition = 'width 0.6s ease';
+  image2.style.width = '600px';
+});
+
+image2.addEventListener('mouseout', () => {
+  image2.style.width = '500px';
+});
 
