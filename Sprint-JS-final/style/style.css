@@ -1,0 +1,126 @@
+body{
+  background-color: rgb(245, 245, 255);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p{
+  font-family:'Times New Roman', Times, serif;
+  font-size: larger;   
+}
+
+h1, h2, h3{
+  font-family: sans-serif;
+}
+
+a{
+  font-size: large;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(0, 47, 255);
+
+}
+
+.container{
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-align: justify;
+ 
+}
+
+#corpo{
+    width: 50%;
+    
+    font-family: sans-serif;
+}
+
+#titulo,#titulo2,#titulo3,#titulo4:hover{
+    cursor: pointer;
+    transition-duration: font-size 0.5s ease;
+}
+
+  #lampada, #placa{
+    border-radius: 15px;
+    width: 600px;
+    margin-top: 50px;
+  }
+
+  #smartgrid, #crise, #smartgrid2{
+    width: 800px;
+    border-radius: 15px;  
+    float: right;
+    margin-right: 100px;
+  
+  }
+
+
+  #smartgrid{
+    margin-top: 100px;
+  }
+
+  #smartgrid2{
+    margin-top: 100px;
+    float: left;
+    width: 600px;
+    margin-bottom: 100px;
+  }
+
+  #energias{
+    width: 700px;
+    border-radius: 15px;  
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 1000px;
+
+  }
+
+  #crise{
+    margin-top: 15%;
+    width: 700px;
+  }
+
+  .texto-smartgrid{
+    width: 50%;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: sans-serif;
+
+    margin-left: 10%;
+    
+    
+    
+   
+  }
+
+  
+  #paginainicial{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+ 
+   
+    z-index: 9999;
+    
+  }
+
+
+ 
+  
+ 
+  
+
+  
+
