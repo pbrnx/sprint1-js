@@ -57,7 +57,8 @@ function mostrarResultado() {
     else if (valorSelecionado === 'opcao4') {
       opcao4Votos++;
       localStorage.setItem('opcao4Votos', opcao4Votos.toString());
-    } else if (valorSelecionado === 'opcao5') {
+    } 
+    else if (valorSelecionado === 'opcao5') {
       opcao5Votos++;
       localStorage.setItem('opcao5Votos', opcao5Votos.toString());
     }
