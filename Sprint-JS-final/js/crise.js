@@ -1,4 +1,4 @@
-const image = document.getElementById('crise');
+//const image = document.getElementById('crise');
 
 image.addEventListener('mouseover', () => {
   image.style.transition = 'width 0.6s ease';

@@ -22,48 +22,52 @@
             
             - Biomassa: obtida a partir da matéria orgânica, como restos de madeira, resíduos agrícolas e urbanos, pode ser transformada em energia elétrica por meio de usinas termoelétricas ou em energia térmica por meio de aquecedores ou caldeiras. <br><br>
             </p>
-    </div>  <br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
-    
-    <img src="../images/energias.png" id="energias"> <br> <br> <br> <br>
-
-    
-
-    <div id="paginainicial">
-        <a href="../index.html">Página Inicial</a>
     </div>
+    <img src="../images/energias.png" id="energias">
+    
 
     <div id="form">
-      <form>
+      <form action="#" method="post">
           <h2>Responda nossa enquete!</h2> 
           <h3>Na sua opinião, qual a fonte de energia mais viável para nosso país?</h3>
               <div>
-                <input type="radio" id="opcao1" name="opcao" >
+                <input type="radio" id="opcao1" name="opcao" value="opcao1" >
                 <label for="opcao1">Energia solar</label>
               </div>
             <br>
               <div>
-                <input type="radio" id="opcao2" name="opcao">
+                <input type="radio" id="opcao2" name="opcao" value="opcao2">
                 <label for="opcao2">Energia eólica</label>
               </div>
               <br>
               <div>
-                <input type="radio" id="opcao3" name="opcao">
+                <input type="radio" id="opcao3" name="opcao" value="opcao3">
                 <label for="opcao3">Energia hidráulica</label>
               </div>
               <br>
               <div>
-                <input type="radio" id="opcao4" name="opcao" >
+                <input type="radio" id="opcao4" name="opcao" value="opcao4" >
                 <label for="opcao4">Energia geotérmica</label>
               </div>
               <br>
               <div>
-                <input type="radio" id="opcao5" name="opcao">
+                <input type="radio" id="opcao5" name="opcao" value="opcao5">
                 <label for="opcao5">Biomassa</label>
               </div>
               <br>
-              <button type="button" onclick="mostrarResultado()">Enviar</button>         
-              <button type="button" onclick="limparSelecao()">Limpar</button>
+              
+              <label for="email">Email:&nbsp;</label>
+              <input type="email" id="email" name="email"><br><br>
+              <button type="button" onclick="mostrarResultado()">Enviar</button>     <br>  <br>   
+              
+     
       </form> 
     </div>  
+    <br>
+  
+
+    <div id="paginainicial">
+      <a href="../index.html">Página Inicial</a>
+  </div>
 </body>
 </html>
