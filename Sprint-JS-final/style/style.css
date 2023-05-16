@@ -49,16 +49,14 @@ a{
   justify-content: space-between;
   align-items: center;
   height: auto;
-  margin-left: 25%;
+  margin-left: 23.5%;
   margin-top: 100px;
   }
 
-  #lampada, #placa{
-    width: 500px;
-    border-radius: 15px;
-    display: inline-block;
-    
-    
+#lampada, #placa{
+  width: 500px;
+  border-radius: 15px;
+  display: inline-block;
   }
 
   #smartgrid, #smartgrid2{
@@ -111,17 +109,43 @@ a{
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     font-family: sans-serif;
   }
-  
+ 
+  input[type="radio"]{
+    display:none;
+  }
 
-  
+input[type="radio"] + label {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  height: auto;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  color: #444;
+}
+
+input[type="radio"] + label:hover{
+  background-color: #bcdcff;
+  transition: background-color 0.5s ease;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
   #paginainicial{
       position: fixed;
       bottom: 0;
       width: 100%;
       text-align: center;
       padding: 10px;
-      z-index: 9999;
-    
+      z-index: 9999;    
   }
 
   #email{
@@ -134,11 +158,20 @@ a{
 
   button{
     border-radius: 5px;
-    width: 70px;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   button:hover{
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(203, 203, 203);
+    transition: background-color 0.5s ease;
+    
   }
 
   

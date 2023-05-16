@@ -17,6 +17,7 @@ const image = document.getElementById('lampada');
 const image2 = document.getElementById('placa');
 
 
+
 //item1
 
 h1Element.addEventListener("mouseover", ()=>{
