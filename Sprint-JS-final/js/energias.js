@@ -27,7 +27,7 @@ function mostrarResultado() {
     else {
       // e-mail é inválido, define a borda como vermelha e exibe uma mensagem de erro
       emailInput.style.borderColor = 'red';
-      alert('Por favor, insira um e-mail válido');
+      alert('Por favor, insira um email válido');
       return;
     }
   }
@@ -37,7 +37,7 @@ function mostrarResultado() {
 
     // Verifica se o email já votou
     if (votantes.includes(email)) {
-      alert('Este e-mail já votou.');
+      alert('Este email já votou.');
       return;
     }
 
